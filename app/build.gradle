@@ -55,6 +55,15 @@ dependencies {
     implementation 'com.github.Panny777.Meizu-Myvu-SDK:myvu-ai:v0.3.0'
     implementation 'com.github.Panny777.Meizu-Myvu-SDK:myvu-weather:v0.3.0'
 
+    // Network (for LLM APIs, Google Directions, Home Assistant)
+    implementation 'com.squareup.okhttp3:okhttp:4.12.0'
+
+    // Google Play Services (for location)
+    implementation 'com.google.android.gms:play-services-location:21.1.0'
+
+    // JSON
+    implementation 'org.json:json:20231013'
+
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
