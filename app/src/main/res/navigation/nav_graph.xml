@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.yourapp.myvu.ui.HomeFragment"
+        android:label="Início"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigationFragment"
+        android:name="com.yourapp.myvu.ui.NavigationFragment"
+        android:label="Navegação"
+        tools:layout="@layout/fragment_navigation" />
+
+    <fragment
+        android:id="@+id/assistantFragment"
+        android:name="com.yourapp.myvu.ui.AssistantFragment"
+        android:label="Assistente IA"
+        tools:layout="@layout/fragment_assistant" />
+
+    <fragment
+        android:id="@+id/notificationsFragment"
+        android:name="com.yourapp.myvu.ui.NotificationsFragment"
+        android:label="Notificações"
+        tools:layout="@layout/fragment_notifications" />
+
+</navigation>
